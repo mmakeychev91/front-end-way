@@ -2,7 +2,7 @@
   "name": "front-end-way",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mmakeychev91.github.io/",
+  "homepage": "https://mmakeychev91.github.io",
   "dependencies": {
     "@types/uuid": "^8.3.4",
     "axios": "^0.21.1",
