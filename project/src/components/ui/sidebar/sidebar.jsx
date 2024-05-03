@@ -6,16 +6,17 @@ const Sidebar = () => (
       <ul>
         <li>
           <NavLink end to="/roadmap">
-                Roadmap
+            Roadmap
           </NavLink>
         </li>
         <li>
           <NavLink end to="/books">
-                Books
+            Books
           </NavLink>
         </li>
       </ul>
     </nav>
+    <hr />
   </div>
 );
 
