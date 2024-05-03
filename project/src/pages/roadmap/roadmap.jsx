@@ -81,6 +81,10 @@ const Roadmap = () => (
         </li>
       </ul>
     </li>
+    <li>TypeScript</li>
+    <li>Node.js (базово)</li>
+    <li>SSR (Next.js)</li>
+    <li>Анимация (gsap)</li>
   </ol>
 );
 

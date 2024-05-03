@@ -14,6 +14,16 @@ const Sidebar = () => (
             Books
           </NavLink>
         </li>
+        <li>
+          <NavLink >
+            Проекты
+          </NavLink>
+        </li>
+        <li>
+          <NavLink >
+            Дневник обучения
+          </NavLink>
+        </li>
       </ul>
     </nav>
     <hr />
