@@ -15,12 +15,12 @@ const Sidebar = () => (
           </NavLink>
         </li>
         <li>
-          <NavLink >
+          <NavLink end to="/projects">
             Проекты
           </NavLink>
         </li>
         <li>
-          <NavLink >
+          <NavLink end to="/learning-diary">
             Дневник обучения
           </NavLink>
         </li>

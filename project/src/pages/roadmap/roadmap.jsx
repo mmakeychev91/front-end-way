@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 const Roadmap = () => (
   <ol>
     <li>
@@ -44,7 +46,7 @@ const Roadmap = () => (
         <li>Прототипы, прототипное наследование</li>
         <li>Асинхронность</li>
         <li>ES6 (деструктуризация, коллекции (Map, Set), промисы, async/await)</li>
-        <li>Event Loop (setTimeout, micro/macro tasks)</li>
+        <NavLink end to="/roadmap/event-loop"><li>Event Loop (setTimeout, micro/macro tasks)</li></NavLink>
         <li>Запросы (fetch,axios)</li>
         <li>Рекурсия</li>
         <li>Манипуляция с DOM, всплытие, погружение, блокирование дефолтного поведения браузера, делегирование событий</li>
