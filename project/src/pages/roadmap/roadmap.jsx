@@ -7,9 +7,9 @@ const Roadmap = () => (
       <li>
         Интернет
         <ul>
-          <li>Как работают браузеры</li>
-          <li>Что такое HTTP/S протокол</li>
-          <li>Что такое Доменное имя</li>
+          <NavLink end to="/roadmap/browser"><li>Как работают браузеры ✓</li></NavLink>
+          <NavLink end to="/roadmap/http"><li>Что такое HTTP/S протокол ✓</li></NavLink>
+          <NavLink end to="/roadmap/domain-name"><li>Что такое Доменное имя ✓</li></NavLink>
         </ul>
       </li>
       <li>
@@ -33,19 +33,23 @@ const Roadmap = () => (
           <li>Grid, Flexbox ✓</li>
           <li>Адаптивный дизайн ✓</li>
           <li>Препроцессоры: SCSS/Less (иметь опыт с двумя) ✓</li>
-          <li>
-            Библиотеки: tailwind/material ui/ant design (иметь опыт хотя бы с
-            двумя)
-          </li>
+          <NavLink end to="/roadmap/ui-libs">
+            <li>
+              Библиотеки: tailwind/material ui ✓ /ant design ✓ (иметь опыт хотя бы с
+              двумя) ✓
+            </li>
+          </NavLink>
         </ul>
       </li>
       <li>
         JavaScript
         <ul>
-          <li>
-            Типы данных, переменные, функции, циклы, проверки, логические
-            операторы ✓
-          </li>
+          <NavLink end to="/roadmap/variables">
+            <li>
+              Типы данных, переменные, функции, циклы, проверки, логические
+              операторы
+            </li>
+          </NavLink>
           <li>Хостинг</li>
           <li>Функции (в том числе стрелочные)</li>
           <li>
@@ -106,7 +110,7 @@ const Roadmap = () => (
       <li>SSR (Next.js)</li>
       <li>Анимация (gsap)</li>
     </ol>
-  </div>
+  </div >
 );
 
 export default Roadmap;

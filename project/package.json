@@ -4,6 +4,10 @@
   "private": true,
   "homepage": "https://mmakeychev91.github.io",
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
     "@types/uuid": "^8.3.4",
     "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
