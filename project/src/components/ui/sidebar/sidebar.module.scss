@@ -1,0 +1,25 @@
+.list {
+  padding: 24px;
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+.learningTime {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.totalTime {
+  color: cadetblue;
+}
