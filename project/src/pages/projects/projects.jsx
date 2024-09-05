@@ -29,6 +29,7 @@ const Projects = () => (
     <li>Админка чат бота нац.библиотеки (vue)</li>
     <li>Chess(html,css,js)</li>
     <li>Dog list(next)</li>
+    <li>Кфу лк</li>
   </ol>
 );
 
